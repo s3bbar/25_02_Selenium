@@ -37,6 +37,6 @@ password_field.send_keys('secret_sauce')
 login_button = driver.find_element('name', 'login-button')
 login_button.click()
 
-time.sleep(2)
+time.sleep(3)
 
 driver.quit()

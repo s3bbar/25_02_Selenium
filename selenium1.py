@@ -20,7 +20,7 @@ button1_accept.click()
 search_field = driver.find_element('name','q')
 search_field.send_keys('Czy jutro jest niedziela handlowa?')
 search_button = driver.find_element('name', 'btnK')
-search_button.submit()bbar
+search_button.submit()
 time.sleep(3)
 
 driver.close()

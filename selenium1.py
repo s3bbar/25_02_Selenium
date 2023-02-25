@@ -1,15 +1,17 @@
 from selenium import webdriver
 #from selenium.webdriver.common.keys import Keys
 import time
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
+#from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.chrome.service import Service
 
-options = Options()
-options.add_argument("--headless=new")
-ser = Service(r"/usr/bin/chromedriver")
-op = webdriver.ChromeOptions()
+#options = Options()
+#options.add_argument("--headless=new")
+#ser = Service(r"/usr/bin/chromedriver")
+#op = webdriver.ChromeOptions()
 
-driver = webdriver.Chrome(service=ser, options=op)
+#driver = webdriver.Chrome(service=ser, options=op)
+
+driver = webdriver.Chrome()
 time.sleep(1)
 
 driver.get('https://google.com')
